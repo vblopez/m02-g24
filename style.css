@@ -4,6 +4,28 @@ body{ /* body selecciona el cuerpo general y lo pinta */
 	font-family: 'Open Sans', sans-serif;
 			}
 
+ul {
+	position: fixed;
+	list-style-type: none;
+	width: 100%;
+	background-color: #333;
+	}
+	
+li {
+	float: left; /* esto hace que el texto se ponga uno al lado del otro*/
+	}
+
+li a {
+	color: white;
+	padding-right: 20px;
+	text-decoration: none; /* esto hace que no se vean subrayados*/
+	}
+
+li a:hover {
+	background-color: pink;
+	}
+
+
 #introduccion{/* selecciona el div y lo pinta */
 	width: 900px;
 	padding: 20px 0px;
@@ -26,7 +48,6 @@ div{/* selecciona el div y lo pinta */
 	width: 820px; 
 	padding: 20px;
 	margin: 20px 20px;
-	background: white;
 }
 #desarrollo{/* selecciona el id y lo pinta */
 	background-color: orange;
